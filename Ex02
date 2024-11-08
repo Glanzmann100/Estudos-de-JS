@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cyan;
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: red;
+        }
+        p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        window.alert("Minha primeira mensagem")
+        window.confirm("Está gostando de JS")
+        window.prompt("Qual o seu nome? ")
+        
+        //Serve para adicionar um comentário em uma única linha
+
+        /*Serve
+        para
+        adicionar
+        um comentário
+        em
+        várias
+        linhas*/ 
+
+    </script>
+</body>
+</html>
