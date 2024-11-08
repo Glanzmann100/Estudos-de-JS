@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Number.parseInt = valores inteiros 
+        //Number.parseFloat = valores reais
+        var Numero1 = Number(window.prompt("Digite um número: "))
+        var Numero2 = Number(window.prompt("Digite outro número: "))
+        var Soma = Numero1 + Numero2
+        /* Adição = +
+         Subtração = -
+         Divisão = /
+         Multiplicação = **/
+        window.alert("A soma dos números é " + Soma)
+        // Também poderia colocar um placeholder como ${Numero1} e ${Numero2} é igual a ${Soma}
+    </script>
+</body>
+</html>
