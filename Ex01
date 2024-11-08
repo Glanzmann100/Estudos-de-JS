@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <title>Document</title>
- <style>
+    <style>
         body{
-             background-color: cyan;
-             font: normal 20pt Arial;
-}
+            background-color: cyan;
+            color: white;
+            font: normal 20pt Arial;
+        }
         h1{
-            color: rgb(167, 19, 19);
-}
+            color: red;
+        }
         p{
-            color: purple;
-}
-  <style>
+            color: green;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ola, Mundo!</h1>
-    <P>Já me livrei da maldição</P>
-  <script>
-  window.alert("Minha primeira mensagem")
-  window.confirm("Está gostado de JS")
-  window.prompt("Qual o seu nome")
-  <script>
+    <h1>Olá, Mundo</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        window.alert("Minha primeira mensagem")
+        window.confirm("Está gostando de JS")
+        window.prompt("Qual o seu nome? ")
+    </script>
 </body>
 </html>
