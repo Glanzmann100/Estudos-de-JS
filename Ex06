@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações matemáticas</title>
+</head>
+<body>
+    <script>
+      var Numero1 = Number(window.prompt("Digite um número: "))
+      var Numero2 = Number(window.prompt("Digite outro número: "))
+      var Soma = Numero1 + Numero2
+      var Subtração = Numero1 - Numero2
+      var Multiplicação = Numero1 * Numero2
+      var Divisão = Numero1 / Numero2 
+      alert("A soma dos números é igual a " + Soma)
+      alert("A subtração dos números é igual a " + Subtração)
+      alert("A multiplicação dos números é igual a " + Multiplicação)
+      alert("A divisão dos números é igual a " + Divisão)
+    </script>
+</body>
+</html>
