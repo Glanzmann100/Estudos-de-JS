@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cálculo de Média</h1>
+    <input type="number" name="Nota1" id="Nota1">
+    <input type="number" name="Nota2" id="Nota2">
+    <input type="button" value="Somar" onclick="Calcular()">
+    <div id="Res"></div>
+    <script>
+        function Calcular() {
+            var Nota1 = document.querySelector('input#Nota1')
+            var Nota2 = document.querySelector('input#Nota2')
+            var Res =  document.querySelector('div#Res')
+            var N1 = Number(Nota1.value)
+            var N2 = Number(Nota2.value)
+            var Média = (N1 + N2) / 2
+            if (Média >= 7) {
+                Res.innerHTML= ("Aprovado")
+            }else {
+                Res.innerHTML=("Reprovado")
+            }
+        }
+    </script>
+</body>
+</html>
