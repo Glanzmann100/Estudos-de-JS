@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Qual o maior número</h1>
+        Numero 1 <input type="number" name="Numero1" id="Numero1" >
+        Numero 2 <input type="number" name="Numero2" id="Numero2">
+        Numero 3 <input type="number" name="Numero3" id="Numero3">
+        <input type="button" value="Verificar"  id="Verificar" onclick="Verificar()">
+        <div id="Res"></div>
+    </div>
+    <script>
+        function Verificar() {
+        var num1 = parseFloat(document.getElementById("Numero1").value);
+        var num2 = parseFloat(document.getElementById("Numero2").value);
+        var num3 = parseFloat(document.getElementById("Numero3").value);
+        var maior = num1;
+        if(num2 > maior)
+        maior = num2;
+        if(num3 > maior)
+        maior = num3;
+        Res.innerHTML = ("Maior: " + maior);
+        }
+    </script>
+</body>
+</html>
