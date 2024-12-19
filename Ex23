@@ -1,0 +1,5 @@
+var c = 1 
+do {
+    console.log('Seja Bem-Vindo, Matheus')
+    c++
+} while (c <= 10)
